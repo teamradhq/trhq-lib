@@ -1,0 +1,52 @@
+*                 text=auto
+*                 text eol=lf
+# Source code
+*.bash            text eol=lf
+*.htm             text diff=html
+*.html            text diff=html
+*.js              text
+*.json            text
+*.jsx             text
+*.map             text -diff
+*.ts              text
+*.tsx             text
+*.xml             text
+*.xhtml           text diff=html
+
+# Docker
+Dockerfile        text
+
+# Documentation
+*.md              text
+AUTHORS           text
+CHANGELOG         text
+CHANGES           text
+CONTRIBUTING      text
+COPYING           text
+copyright         text
+*COPYRIGHT*       text
+INSTALL           text
+license           text
+LICENSE           text
+NEWS              text
+readme            text
+*README*          text
+TODO              text
+
+# Configs
+*.conf            text
+*.config          text
+.editorconfig     text
+.env              text
+.gitattributes    text
+.gitconfig        text
+*.lock            text -diff
+package-lock.json text -diff
+*.yaml            text
+*.yml             text
+
+# RC files (like .babelrc or .eslintrc)
+*.*rc             text
+
+# Ignore files (like .npmignore or .gitignore)
+*.*ignore         text
