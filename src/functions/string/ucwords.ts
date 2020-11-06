@@ -11,4 +11,4 @@ const ucwords = (str: string) => str.split(' ')
   .map(capitalize)
   .join(' ');
 
-  export default ucwords;
+export default ucwords;
