@@ -8,5 +8,5 @@ describe('arrayToObject', () => {
   it('should be a function', () => {
     expect(typeof arrayToObject)
       .toBe('function');
-  })
+  });
 });

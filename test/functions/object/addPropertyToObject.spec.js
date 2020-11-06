@@ -8,5 +8,5 @@ describe('addPropertyToObject', () => {
   it('should be a function', () => {
     expect(typeof addPropertyToObject)
       .toBe('function');
-  })
+  });
 });

@@ -36,7 +36,7 @@ const reduceRow = (headers: string[]): Function => (
  */
 const fromCsv = (
   csv: string,
-  hasHeaderRow: boolean = true
+  hasHeaderRow = true
 ) => {
   if (!csv) {
     EXCEPTIONS.throw('NO_CSV');
