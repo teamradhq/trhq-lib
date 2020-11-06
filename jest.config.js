@@ -10,8 +10,8 @@ module.exports = {
     '**/test/**/*.spec.[jt]s?(x)',
   ],
   moduleNameMapper: {
-    "@/(.*)$": "<rootDir>/src/$1",
-    "#/(.*)$": "<rootDir>/test/$1",
+    '@/(.*)$': '<rootDir>/src/$1',
+    '#/(.*)$': '<rootDir>/test/$1',
   },
 
 };

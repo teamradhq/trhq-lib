@@ -1,10 +1,19 @@
 module.exports = {
+  root: true,
+  parser: "@typescript-eslint/parser",
+  plugins: [
+    "@typescript-eslint",
+  ],
   env: {
     commonjs: true,
     es6: true,
     node: true,
   },
-  extends: 'airbnb',
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+  ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
