@@ -1,0 +1,6 @@
+// Constants for project
+// SRC_FOLDER
+// TEST_FOLDER
+// SRC_MODULE_ALIAS
+// TEST_MODULE_ALIAS
+// MODULE_FILE_EXTENSION: ts|js|any
